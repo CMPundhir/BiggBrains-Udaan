@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Form</title>
+	<link rel="stylesheet" type="text/css" href="myform.css">
+</head>
+<body>
+	<div class="container">
+		<form>
+			<h3>Admission Form</h3>
+			<label>First Name : </label>
+			<input type="text" name="fname" id="fname">
+			<br>
+			<br>
+			<label>Last Name : </label>
+			<input type="text" name="lname" id="lname">
+			<br>
+			<br>
+			<label>Phone Number : </label>
+			<input type="Number" name="mob" id="mob">
+			<br>
+			<br>
+			<label>Age : </label>
+			<input type="Number" name="age" id="age">
+			<br>
+			<br>
+			<button type="submit" onclick="onSubmit()">Submit</button>
+		</form>
+	</div>
+	<script type="text/javascript">
+		function onSubmit() {
+			const fname = document.getElementById('fname').value
+			const lname = document.getElementById('lname').value
+			const mob = document.getElementById('mob').value
+			const age = document.getElementById('age').value
+			const myForm = document.getElementById("myForm")
+			alert(" First name : "+fname+",\n Last name : "+lname+",\n"+"Mob: "+mob+"\n"+"Age: "+age)
+		}
+	</script>
+</body>
+</html>

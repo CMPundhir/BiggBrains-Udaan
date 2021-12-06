@@ -1,0 +1,24 @@
+table{
+	width: 90%;
+	margin: 5%;
+	border-collapse: collapse;
+}
+tr{
+	border-collapse: collapse;
+	padding: 8px;
+	background-color: lightcyan;
+	border-radius: 4px;
+	text-align: center;
+}
+.mtr{
+	background-color: darkcyan;
+	color: white;
+}
+tr:hover {
+	background-color: black;
+	color: white;
+}
+.mtr:hover{
+	background-color: darkgreen;
+	color: white;
+}

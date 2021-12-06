@@ -1,0 +1,12 @@
+.container{
+	margin: 5%;
+	width: 90%;
+}
+
+form{
+	width: 300px;
+	text-align: right;
+	border: 2px solid darkblue;
+	border-radius: 16px;
+	padding: 16px;
+}

@@ -1,0 +1,21 @@
+body{
+	background-color: #fdfff5;
+}
+
+form{
+	border: 2px solid black;
+	padding: 16px;
+	width: 500px;
+	text-align: center;
+	border-radius: 16px;
+	background-color: white;
+
+}
+
+.container{
+	height: 50vh;
+	margin: 24px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}

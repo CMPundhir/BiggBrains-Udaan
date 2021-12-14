@@ -32,6 +32,7 @@ let y = 19
 let z = x + y
 console.log(z)
 
+
 // using const
 const SHINCHAN_AGE = 5
 const shinchan_age = 6
@@ -48,4 +49,6 @@ console.log(shinchan_age)
 5. Reserved words (like JavaScript keywords) cannot be used as names
 */
 
+
+// = is called assignement operator
 

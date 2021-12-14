@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Form Example</title>
+	<link rel="stylesheet" type="text/css" href="myform.css">
+</head>
+<body>
+<div class="container">
+	<form method="post" action="second_page.html">
+		<h3>Admission Form</h3>
+		<label>First Name : </label>
+		<input type="text" name="first_name">
+		<br/>
+		<br/>
+		<label>Last Name : </label>
+		<input type="text" name="last_name">
+		<br/>
+		<br/>
+		<label>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&emsp;Picture &emsp;&ensp;: </label>
+		<input type="file" name="pic">
+		<br/>
+		<br/>
+		<label>Age &emsp;&emsp;&nbsp;&nbsp; : </label>
+		<input type="number" name="age">
+		<br/>
+		<br/>
+		<label>Gender &ensp;&nbsp;&emsp;: &ensp;&nbsp;&nbsp;</label>
+		<input type="radio" name="gender" value="Male"> Male</input>
+		<input type="radio" name="gender" value="Female">Female</input>
+		<br/>
+		<br/>
+		<label>City :&nbsp;&nbsp;&ensp;&ensp;&nbsp;</label>
+		<select name="city">
+			<option>Delhi</option>
+			<option>Sonipat</option>
+			<option>Panipat</option>
+			<option>Mumbai</option>
+			<option>Kolkatta</option>
+			<option>Chennai</option>
+		</select>
+		<br/>
+		<br/>
+		<label>Message :&nbsp;&nbsp;&ensp;&ensp;&nbsp;</label>
+		<textarea name="message" style="width:200px; height:100px;">
+			Enter about you...
+		</textarea>
+		<br>
+		<br>
+		<input type="checkbox" name="tnc"> Accept Terms & Conditions</input>
+		<br/>
+		<br/>
+		<input type="submit">
+		<br/>
+		<br/>
+	</form>
+</div>
+<script type="text/javascript" src="myform.js"></script>
+</body>
+</html>

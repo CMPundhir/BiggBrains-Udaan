@@ -1,0 +1,5 @@
+Q. what is SVG
+Ans. Scalable Vector Graphics
+
+Q. The HTML <canvas> element is used to?
+Ans. 

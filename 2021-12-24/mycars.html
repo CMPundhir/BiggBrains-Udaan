@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>My cars</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="mycars.css">
+<body>
+  	<div class="container">
+  		<div>
+  			<!-- My Form div -->
+  			<h1>Add Car Form</h1>
+  			<input type="text"  id="name" placeholder="Car Name">
+  			<input type="number" id="price" placeholder="Car Price">
+  			<input type="text" id="color" placeholder="Car Color">
+  			<input type="url" id="image" placeholder="Car Image Url">
+  			<button onclick="addCar()">Add</button>
+  		</div>
+  		<button onclick="clearRows()" style="margin-top: 8px;">Clear ALL</button>
+  		<div>
+  			<!-- My Table div -->
+  			<h1>Add Car Form</h1>
+  			<table id="myTable">
+  				<thead>
+  					<tr>
+	  					<th>S No.</th>
+	  					<th>Name</th>
+	  					<th>Price (INR)</th>
+	  					<th>Color</th>
+	  					<th>Image</th>
+	  				</tr>
+  				</thead>
+  				<tbody>
+  					<tr>
+	  					<td>1</td>
+	  					<td>Ferrari</td>
+	  					<td>10</td>
+	  					<td>Yellow</td>
+	  					<td><img src="https://cdn.cnn.com/cnnnext/dam/assets/200918141328-01-ferrari-f8-spider-super-tease.jpg" width="150px" height="100px"></td>
+	  				</tr>
+  				</tbody>
+  			</table>
+  		</div>
+  	</div>
+  	<script type="text/javascript" src="mycars.js"></script>
+</body>
+</html>

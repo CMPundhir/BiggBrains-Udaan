@@ -2,4 +2,30 @@ Q. what is SVG
 Ans. Scalable Vector Graphics
 
 Q. The HTML <canvas> element is used to?
-Ans. 
+Ans. The HTML <canvas> element is used to draw graphics on a web page.
+
+Q. What is hyperlink?
+Ans. In a website, a hyperlink (or link) is an item like a word or button that points to another location.
+
+Q. How do you display hyperlinks without an underline?
+Ans. <a href="https://biggbrains.com/" style="text-decoration: none;">Open BiggBrains</a>
+
+Q. How do you make the text bold?
+Ans. <label style="font-weight: bold;">I am Bold Text</label>
+
+
+Q. WHat is CSS Selector?
+Ans. A CSS selector selects the HTML element(s) you want to style.
+
+Q. How do you group selectors?
+Ans. we use , to seperate them
+
+Q. In HTML, what does the aside element define?
+Ans. The <aside> tag defines some content aside from the content it is placed in.
+The aside content should be indirectly related to the surrounding content.
+
+Q. How do you make each word in a text start with a capital letter?
+Ans. <label style="text-transform: capitalize;">I am God and i am great</label>
+
+Q. When using the padding property; are you allowed to use negative values?
+Ans. Yes

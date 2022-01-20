@@ -1,0 +1,19 @@
+.container {
+	background-color: green;
+	padding: 100px;
+}
+
+@media(max-width: 950px){
+	.container {
+		background-color: yellow;
+		padding: 100px;
+	}
+}
+
+@media(max-width: 650px){
+	.container {
+		background-color: red;
+		padding: 100px;
+	}
+}
+

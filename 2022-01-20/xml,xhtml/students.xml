@@ -1,0 +1,17 @@
+<student-list>
+	<student>
+		<id>1</id>
+		<name>Yash</name>
+		<age>19</age>
+	</student>
+	<student>
+		<id>2</id>
+		<name>Sameer</name>
+		<age>13</age>
+	</student>
+	<student>
+		<id>2</id>
+		<name>Tanmay</name>
+		<age>13</age>
+	</student>
+</student-list>

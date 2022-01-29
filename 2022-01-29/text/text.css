@@ -1,0 +1,26 @@
+body{
+	padding: 32px;
+}
+
+.container{
+	margin: 32px;
+}
+
+.my-text{
+	padding: 32px;
+	color: white;
+	background-color: darkgreen;
+	text-align: left;
+	text-align-last: right;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-indent: 200px;
+	letter-spacing: 5px;
+	line-height: 50px;
+	word-spacing: 10px;
+	border-radius: 32px;
+	text-shadow: 3px 3px 5px black;
+	font-family: "Sofia";
+	font-weight: 200;
+	font-size: 40px;
+}

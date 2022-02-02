@@ -1,0 +1,20 @@
+body{
+	margin: 64px;
+}
+
+ul.cm{
+	list-style-image: url('https://i.ibb.co/jrvqq68/istockphoto-1124532572-170667a.png');
+}
+
+ul.sameer{
+	list-style-type: circle;
+}
+
+ul.yash{
+	list-style-type: square;
+}
+
+ol.tanmay{
+	list-style-type: upper-roman;
+}
+

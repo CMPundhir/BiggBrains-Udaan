@@ -1,0 +1,40 @@
+body{
+	margin: 64px;
+}
+
+table, th, td{
+	width: 100%;
+	border: 2px solid whitesmoke;
+	border-collapse: collapse;
+	padding: 16px;
+}
+
+th{
+	background-color: #04AA6D;
+	color: white;
+	border: 2px solid #04AA6D;
+}
+
+th.sno{
+	width: 5%;
+	text-align: center;
+}
+
+td.sno{
+	width: 5%;
+	text-align: center;
+}
+
+tr:hover{
+	background: lemonchiffon;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+img{
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+}

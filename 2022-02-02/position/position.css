@@ -1,0 +1,33 @@
+body{
+	margin: 64px;
+}
+
+div{
+	margin: 8px;
+	height: 500px;
+	background-color: palegreen;
+	border: 2px solid darkblue;
+}
+
+div.relative{
+	position: relative;
+	left: 100px;
+}
+
+div.fixed{
+	position: fixed;
+	left: 100px;
+	right: 100px;
+	z-index: 100;
+}
+
+div.absolute{
+	position: absolute;
+	top: 10px;
+}
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,19 @@
+h1{
+	background-color: darkblue;
+	color: white;
+	padding: 64px;
+	text-align: center;
+}
+
+div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+p{
+	padding: 16px;
+	max-width: 600px;
+	max-height: 600px;
+	background-color: #ff000060;
+	overflow: scroll;
+}

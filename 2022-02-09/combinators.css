@@ -1,0 +1,52 @@
+body{
+	background-color: whitesmoke;
+}
+
+.header{
+	background-color: darkblue;
+	width: 100%;
+	height: 100px;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*combinators*/
+div p{
+	background-color: yellow;
+	border: 2px solid black;
+	padding: 16px;
+}
+
+div > img {
+	border: 4px solid black;
+	border-radius: 16px;
+}
+
+a{
+	color: yellowgreen;
+}
+
+/*pseudo class*/
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: dimgray;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: blue;
+}
+
+a.devil:hover{
+	color: hotpink;
+}
